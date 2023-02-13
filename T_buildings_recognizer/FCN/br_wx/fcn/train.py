@@ -217,4 +217,7 @@ def parse_args():
 if __name__ == '__main__':
     args = parse_args()
 
+    if not os.path.exists("./save_weights"):
+        os.mkdir("./save_weights")
+
     main(args)

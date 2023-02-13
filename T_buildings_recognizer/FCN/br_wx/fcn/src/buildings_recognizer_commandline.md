@@ -1,0 +1,1 @@
+py train.py --data-path /wx/Models_WX/K-T/T_buildings_recognizer/FCN/br_dataset/ --mask-csv-path /wx/Models_WX/K-T/T_buildings_recognizer/FCN/br_dataset/train_mask.csv --num-classes 1
